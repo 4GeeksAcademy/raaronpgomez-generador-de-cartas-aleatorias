@@ -1,5 +1,56 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
+    background: green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta {
+    width: 380px;
+    height: 580px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, Times serif;
     background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 4);
+    position: relative;
+    margin: auto;
+}
+
+.arriba {
+    font-size: 130px;
+    position: absolute;
+    top: -25px;
+    left: 10px;
+}
+
+.abajo {
+    transform: rotate(180deg);
+    position: absolute;
+    right: 10px;
+    bottom: -30px;
+    font-size: 130px;
+}
+
+.centro {
+    text-align: center;
+    font-size: 160px;
+}
+
+.btn-primary {
+position: absolute;
+bottom: -95px;
+padding: 23px;
+}
+
+.form-control {
+    position: absolute;
+    top: -85px;
 }
